@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+    ---cor-ciano: #00FFF8;
+    ---cor-azul-escuro:#0D192C;
+    ---cor-azul-menos-escuro: #182230;
+    ---cor-azula-macio:#8BACD9;
+    ---cor-branco:#FFFFFF;
+}
+
+body{
+    background-color: var(---cor-azul-escuro);
+    font-family: 'Outfit', sans-serif;
+    
+
+}
+
+.destaque{
+    color: var(---cor-branco);
+}
+
+/*Card*/
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.card{
+    background-color: var(---cor-azul-menos-escuro);
+    padding: 20px;
+    border-radius: 8px;
+    max-height: 596px;
+    width: 350px;
+   
+    
+}
+
+/* Imagem*/
+
+.imagem__card{
+    border-radius: 8px;
+    height: 302px;
+    width: 100%;
+}
+
+.imagem__card:hover{
+    opacity:  0.5;
+    background-color: #00FFF8;
+}
+
+
+/*Descricao*/
+
+.titulo__descricao{
+    font-size: 22px;
+    font-weight: 600;
+    color: var(---cor-branco);
+    padding-top: 16px;
+}
+
+.titulo__descricao:hover{
+    color: var(---cor-ciano);
+}
+
+.paragrafo__descricao{
+    font-family: 18px;
+    font-weight: 300;
+    line-height: 26px;
+    color: var(---cor-azula-macio);
+    padding-top: 16px;
+    
+}
+
+/*Valor*/
+
+.valor{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+    
+}
+
+.ethereum__valor{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(---cor-ciano);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.tempo__valor{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(---cor-azula-macio);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+
+/*Avatar*/
+
+.avatar{
+    border-top: solid 1px var(---cor-azula-macio);
+    padding-top: 16px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.imagem__avatar{
+    height: 33px;
+    width: 33px;
+}
+
+.descricao__avatar{
+    color: var(---cor-azula-macio);
+}
+
+span .destaque:hover{
+    color: var(---cor-ciano);
+}
